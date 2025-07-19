@@ -1,0 +1,10 @@
+
+
+
+
+The keyword new creates an object in the specified class. It asks for the system to store the object and tells the constructor to initialize the instance variables when the object is made.
+A default constructor is a constructor with no set parameters. Using a default constructor initializes the class's instance variables as their default value.
+An instance variable is an attribute for an object. So for the class Account, there can be the variable name which allows each user's Account to have their name as more or less an identifier to differentiate it from other user Accounts or to store as data. 
+Classes System and String are part of the java.lang package so are automatically imported in to every java program.
+The class, Scanner, can be used without importing it if you use the full qualified class name if they are using another class from the same package (default package). java.util.Scanner input = new java.util.Scanner(System.in);
+A set method and a get method are very useful. Set method stores the data for later use and get pulls the data from the object so it can be used. An example would be for the class Account. You would setName to store the user's account name and then when you go to print their account info you would getName to have it pull up the stored Account name for printing.
